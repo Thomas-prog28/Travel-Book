@@ -1,6 +1,8 @@
 :root {
     --color-bg-clair: #0f4c81;
     --color-bg-fonce: #042746;
+    --font-family-titre: 'shadows into light';
+    --font-family-p: 'open sans';
 }
 
 
@@ -15,6 +17,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+h1 {
+    font-family: var(--font-family-titre);
+    text-transform: uppercase;
+    font-size: 6em;
+}
+
+h2 {
+    font-family: var(--font-family-titre);
+    font-size: 2.7em;
+    text-transform: uppercase;
+}
+
+
+h3 {
+    font-family: var(--font-family-titre);
+    font-size: 2.0em;
+}
+
+p. {
+    font-family: var(--font-family-p);
 }
 
 .section__travelbook {
