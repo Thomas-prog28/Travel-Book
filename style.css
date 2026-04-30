@@ -1,0 +1,131 @@
+:root {
+    --color-bg-clair: #0f4c81;
+    --color-bg-fonce: #042746;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__travelbook {
+    background-image: url(/images/backpack-mountain.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__travelbook__div__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 35%;
+    height: 8%;
+    border: 3px yellow solid;
+}
+
+.section__travelbook__titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    width: 40%;
+    border: 3px yellow solid;
+}
+
+.section__hey {
+    background-color: var(--color-bg-clair);
+    width: 100vw;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section__hey__h2 {
+    border: 3px yellow solid;
+    width: 8%;
+    height: 15%;
+}
+
+.section__hey__p {
+    border: 3px yellow solid;
+    width: 60%;
+    height: 30%;
+}
+
+.section__hey__i {
+    border: 3px yellow solid;
+    width: 25%;
+    height: 25%;
+}
+
+.section__hey__ii {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.section__australie {
+    background-color: var(--color-bg-fonce);
+    width: 100vw;
+    height: 350px;
+    display: flex;
+}
+
+.section__australie__div {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+}
+
+.section__nouvellecaledonie {
+    background-color: var(--color-bg-fonce);
+    width: 100vw;
+    height: 400px;
+    display: flex;
+}
+
+.section__japon {
+    background-color: var(--color-bg-fonce);
+    width: 100vw;
+    height: 400px;
+    display: flex;
+}
+
+.footer {
+    background-color: var(--color-bg-clair);
+    height: 145px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__div__gd {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer__div__2025 {
+    text-align: center;
+}
