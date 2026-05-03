@@ -23,6 +23,7 @@ h1 {
     font-family: var(--font-family-titre);
     text-transform: uppercase;
     font-size: 6em;
+
 }
 
 h2 {
@@ -37,9 +38,14 @@ h3 {
     font-size: 2.0em;
 }
 
-p. {
+p {
     font-family: var(--font-family-p);
+    font-size: 1.1em;
 }
+
+/* =======
+TRAVELBOOK
+========== */
 
 .section__travelbook {
     background-image: url(/images/backpack-mountain.webp);
@@ -49,7 +55,7 @@ p. {
     height: 600px;
     width: 100vw;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
@@ -61,52 +67,96 @@ p. {
     gap: 50px;
     width: 35%;
     height: 8%;
-    border: 3px yellow solid;
+    font-family: var(--font-family-p);
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .section__travelbook__titre {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 70%;
-    width: 40%;
-    border: 3px yellow solid;
+    width: 70%;
+    /* border: 3px yellow solid; */
 }
+
+.section__travelbook__titre__soussec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+
+}
+
+/*=
+HEY
+=== */
 
 .section__hey {
     background-color: var(--color-bg-clair);
     width: 100vw;
     height: 540px;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+
+.section__hey__div {
+    /* border: 3px yellow solid; */
+    margin: 70px auto;
+    width: 900px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .section__hey__h2 {
-    border: 3px yellow solid;
-    width: 8%;
-    height: 15%;
+    /* border: 3px yellow solid; */
+    width: 18%;
+    height: 19%;
 }
 
 .section__hey__p {
-    border: 3px yellow solid;
-    width: 60%;
-    height: 30%;
+    /* border: 3px yellow solid; */
+    width: 68%;
+    height: 33%;
 }
 
 .section__hey__i {
-    border: 3px yellow solid;
+    /* border: 3px yellow solid; */
     width: 25%;
     height: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    font-size: 60px;
 }
 
-.section__hey__ii {
+.fa-passport {
+    color: rgb(32, 194, 145);
+}
+
+.fa-route {
+    color: rgb(238, 209, 45);
+}
+
+.fa-signs-post {
+    color: rgb(250, 250, 119);
+}
+
+/* .section__hey__ii {
     display: flex;
     justify-content: center;
     align-items: end;
-}
+} */
 
 .section__australie {
     background-color: var(--color-bg-fonce);
