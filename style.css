@@ -36,6 +36,7 @@ h2 {
 h3 {
     font-family: var(--font-family-titre);
     font-size: 2.0em;
+    padding-left: 20px;
 }
 
 p {
@@ -152,24 +153,34 @@ HEY
     color: rgb(250, 250, 119);
 }
 
-/* .section__hey__ii {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-} */
-
+/* ======
+AUSTRALIE
+========= */
 .section__australie {
     background-color: var(--color-bg-fonce);
     width: 100vw;
-    height: 350px;
+    height: 320px;
     display: flex;
 }
 
-.section__australie__div {
-    display: flex;
-    flex-direction: column;
-    align-content: space-evenly;
+.section__australie__img {
+    width: 100vw;
+    max-width: 400px; 
 }
+
+.section__australie__div {
+    margin: 60px;
+}
+
+.section__australie__div p {
+    border-top: 2px white solid;
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
+/* ===============
+NOUVELLE-CALEDONIE
+===================*/
 
 .section__nouvellecaledonie {
     background-color: var(--color-bg-fonce);
@@ -178,6 +189,19 @@ HEY
     display: flex;
 }
 
+.section__nouvellecaledonie__div {
+    margin: 60px;
+}
+
+.section__nouvellecaledonie__div p {
+    border-top: 2px solid white;
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
+/* ==
+JAPON
+===== */
 .section__japon {
     background-color: var(--color-bg-fonce);
     width: 100vw;
@@ -185,21 +209,40 @@ HEY
     display: flex;
 }
 
+.section__japon__div {
+    margin: 60px;
+}
+
+.section__japon__div p {
+    border-top: 2px white solid;
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
+/* ===
+FOOTER
+====== */
 .footer {
     background-color: var(--color-bg-clair);
-    height: 145px;
+    height: 165px;
     width: 100vw;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .footer__div__gd {
+    
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
 }
+
+
+
+
 
 .footer__div__2025 {
     text-align: center;
+    border-top: 1px white solid;
+    padding-top: 5px;
 }
