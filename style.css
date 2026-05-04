@@ -14,9 +14,9 @@
 
 body {
     color: white;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
 }
 
 h1 {
@@ -109,13 +109,13 @@ HEY
 
 .section__hey__div {
     /* border: 3px yellow solid; */
-    margin: 70px auto;
+    margin: 0 auto;
     width: 900px;
-    height: 400px;
+    height: 540px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
@@ -158,24 +158,24 @@ AUSTRALIE
 ========= */
 .section__australie {
     background-color: var(--color-bg-fonce);
-    width: 100vw;
-    height: 320px;
+    height: 420px;
     display: flex;
+    width: 100vw;
 }
 
 .section__australie__img {
-    width: 100vw;
-    max-width: 400px; 
+    width: 100%;
 }
 
-.section__australie__div {
-    margin: 60px;
+.section__australie__article {
+    /* margin: 60px; */
+    padding: 110px;
 }
 
-.section__australie__div p {
+.section__australie__article p {
     border-top: 2px white solid;
     margin-top: 25px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 /* ===============
@@ -189,14 +189,14 @@ NOUVELLE-CALEDONIE
     display: flex;
 }
 
-.section__nouvellecaledonie__div {
-    margin: 60px;
+.section__nouvellecaledonie__article {
+    padding: 110px;
 }
 
-.section__nouvellecaledonie__div p {
+.section__nouvellecaledonie__article p {
     border-top: 2px solid white;
     margin-top: 25px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 /* ==
@@ -209,14 +209,14 @@ JAPON
     display: flex;
 }
 
-.section__japon__div {
-    margin: 60px;
+.section__japon__article {
+padding: 110px;
 }
 
-.section__japon__div p {
+.section__japon__article p {
     border-top: 2px white solid;
     margin-top: 25px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 /* ===
@@ -224,25 +224,46 @@ FOOTER
 ====== */
 .footer {
     background-color: var(--color-bg-clair);
-    height: 165px;
+    /* height: 165px; */
     width: 100vw;
+    position: relative;
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
 }
 
 .footer__div__gd {
-    
     display: flex;
     justify-content: space-evenly;
+    height: 170px;
 }
 
+.footer__div__gd__article1,
+.footer__div__gd__article2 {
+  padding-top: 20px;
+}
 
+.footer__h3 {
+    padding: 0;
+    margin-bottom: 25px;
+}
 
+.footer__fabrands {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.fa-circle-arrow-up {
+    position: absolute;
+    left: 90%;
+    bottom: 45%;
+    font-size: 45px;
+}
 
 .footer__div__2025 {
     text-align: center;
     border-top: 1px white solid;
     padding-top: 5px;
+    /* margin-bottom: -50px; */
 }
